@@ -6,11 +6,15 @@
 
 ---
 
-#### Created By: Terra Smith
+---
+
+### Created By: [Terra Smith](https://www.linkedin.com/in/terratori/)
 
 ##### 12/15/2021
 
-### [GitHub](https://www.github/Terra-06.com) || [LinkedIn](https://www.linkedin.com/in/terratori/) || [Pure-DJ APP]() || [TRELLO](https://trello.com/b/Sw0mxpqu/pure-dj)
+### [Pure_DJ](https://www.com/)
+
+---
 
 ---
 
@@ -24,7 +28,7 @@
 
 ### **_Technology Used_**
 
-VS Code || REACT || Express || NodeJS || Mongoose || MongoDB || Insomnia || Figma || Whimsical || Inkscape || SketchBook
+VS Code || Mongoose || MongoDB || Express || REACT || NodeJS || Insomnia || Figma || Whimsical || InkScape || SketchBook
 
 ---
 
@@ -61,13 +65,11 @@ VS Code || REACT || Express || NodeJS || Mongoose || MongoDB || Insomnia || Figm
 
 ### **_Future Updates_**
 
-##### - [ ] Update How the app works
+##### - [ ] Add 3rd Party API
 
 ##### - [ x ] ~~Add images of the app~~
 
 ##### - [ x ] ~~Update ReadMe~~
-
-##### - [ ] TBD
 
 ---
 
