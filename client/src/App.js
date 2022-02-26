@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
-import './App.css';
-import Toolbar from './components/Toolbar/Toolbar'
-import SidePanel from './components/SidePanel/SidePanel'
-import Backdrop from './components/Backdrop/Backdrop'
+import './styles/App.css';
+import Toolbar from './components/Toolbar'
+import SidePanel from './components/SidePanel'
+import Backdrop from './components/Backdrop'
+import Home from './pages/Home'
 
 export default function App() {
 
