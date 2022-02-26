@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+import React, { useState } from 'react'
 import './App.css';
+import Toolbar from './components/Toolbar/Toolbar'
+import SidePanel from './components/SidePanel/SidePanel'
+import Backdrop from './components/Backdrop/Backdrop'
 
-function App() {
+export default function App() {
+
+  const [sidePanelOpen, setSidePanelOpen] = useState(false)
+
+  const handlePanelToggleClick = () => {
+    setSidePanelOpen((prevPanelState) => !prevPanelState)
+  }
+
+  const handleBackdropClick = () => {
+    setSidePanelOpen(false)
+  }
+
+  let backdrop;
+
+  if (sidePanelOpen) {
+    backdrop = <Backdrop click={handleBackdropClick} />
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div style={{ height: '100%' }} className="App">
+      <Toolbar handlePanelToggleClick={handlePanelToggleClick} />
+      <SidePanel show={sidePanelOpen} />
+      {backdrop}
+      <main style={{ marginTop: '65px' }}>
+        <p>This is Page content! routes to components</p>
+      </main>
+
+    </div >
   );
 }
 
-export default App;
