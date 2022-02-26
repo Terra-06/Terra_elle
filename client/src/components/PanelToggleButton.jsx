@@ -1,5 +1,5 @@
 import React from 'react';
-import './PanelToggleButton.css'
+import '../styles/PanelToggleButton.css'
 
 const panelToggleButton = props => {
     return (
