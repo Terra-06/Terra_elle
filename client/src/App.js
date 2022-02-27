@@ -29,6 +29,7 @@ export default function App() {
       <SidePanel show={sidePanelOpen} />
       {backdrop}
       <main style={{ marginTop: '65px' }}>
+        <Home />
         <p>This is Page content! routes to components</p>
       </main>
 
