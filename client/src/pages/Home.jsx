@@ -21,11 +21,11 @@ export default function Home() {
                 <div className='home_Terra-elle'>
                     <h1>Terra'elle</h1>
                 </div>
-                <div className='home_resume-button'>
+                {/* <div className='home_resume-button'>
                     <a href="/">
                         <button>Resume</button>
                     </a>
-                </div>
+                </div> */}
             </div>
         </div >
     )
