@@ -15,7 +15,6 @@ export default function Home() {
                     objectFit: 'cover',
                     transform: 'translate(-50%, -50%)',
                     zIndex: '-1',
-
                 }}
             ></video>
             <div className='home_text-container'>
