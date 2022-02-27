@@ -30,7 +30,6 @@ export default function App() {
       {backdrop}
       <main style={{ marginTop: '65px' }}>
         <Home />
-        <p>This is Page content! routes to components</p>
       </main>
 
     </div >
