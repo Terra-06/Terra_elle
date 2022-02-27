@@ -15,7 +15,7 @@
 	letter-spacing: 8px;
 }
 
-.home_resume-button button {
+/* .home_resume-button button {
 	font-size: 1.5rem;
 	background-color: rgb(128, 55, 0);
 	color: white;
@@ -45,7 +45,7 @@
 
 .home_resume-button:focus {
 	outline: none;
-}
+} */
 
 @media (max-width: 768px) {
 	.home_text-container {
