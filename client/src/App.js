@@ -1,9 +1,14 @@
 import React, { useState } from 'react'
+import { Routes, Route } from 'react-router-dom'
 import './styles/App.css';
 import Toolbar from './components/Toolbar'
 import SidePanel from './components/SidePanel'
 import Backdrop from './components/Backdrop'
 import Home from './pages/Home'
+import Skills from './pages/Skills'
+import About from './pages/About'
+import Projects from './pages/Projects'
+import Resume from './pages/Resume'
 
 export default function App() {
 
@@ -29,9 +34,14 @@ export default function App() {
       <SidePanel show={sidePanelOpen} />
       {backdrop}
       <main style={{ marginTop: '65px' }}>
-        <Home />
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/Projects' element={<Projects />} />
+          <Route path='/Skills' element={<Skills />} />
+          <Route path='/Resume' element={<Resume />} />
+        </Routes>
       </main>
-
     </div >
   );
 }
