@@ -19,7 +19,7 @@ export default function Home() {
             ></video>
             <div className='home_text-container'>
                 <div className='home_Terra-elle'>
-                    <h1>Terra'elle</h1>
+                    {/* <h1>Terra'elle</h1> */}
                 </div>
                 {/* <div className='home_resume-button'>
                     <a href="/">
