@@ -3,7 +3,7 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: #6a0705cf;
+	background: #6a0705b1;
 	height: 100px;
 }
 
@@ -16,7 +16,7 @@
 
 .toolbar_logo {
 	margin-left: 1rem;
-	color: rgba(211, 161, 54, 0.954);
+	margin-top: 10px;
 }
 
 .toolbar_logo a {
@@ -34,8 +34,8 @@
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	font-family: 'Barriecito', cursive;
-	font-size: 25px;
+	font-family: 'Chakra Petch', sans-serif;
+	font-size: 30px;
 }
 
 .toolbar_nav-items li {
