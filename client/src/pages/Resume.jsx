@@ -1,13 +1,17 @@
 import React from 'react'
 import bkgd from '../videos/bkgd.mov'
 import '../styles/Resume.css'
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
+import TMSResume from '../assets/TMSResume.pdf'
 
-export default function Home() {
+export default function Resume() {
+
+
     return (
-        <div className='home'>
+        <div className='resume'>
             <video loop muted autoPlay src={bkgd}
                 style={{
-                    position: 'absolute',
+                    position: 'fixed',
                     width: '100%',
                     left: '50%',
                     top: '50%',
@@ -16,7 +20,15 @@ export default function Home() {
                     transform: 'translate(-50%, -50%)',
                     zIndex: '-1',
                 }}
-            ></video>
-        </div>
+            />
+            <div className='resume_contain'>
+                <Document file={TMSResume}>
+                    <Page pageNumber={1} />
+                </Document>
+
+            </div>
+        </div >
+
+
     )
 }

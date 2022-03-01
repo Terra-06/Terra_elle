@@ -18,7 +18,7 @@
 	border-radius: 20px;
 }
 .skills_sub-contain h1 {
-	font-family: 'Barriecito', cursive;
+	font-family: 'Chakra Petch', sans-serif;
 	margin-top: 0;
 	letter-spacing: 3px;
 }
@@ -58,12 +58,12 @@
 		font-size: 16px;
 	}
 	.skills_sub-contain h1 {
-		font-family: 'Barriecito', cursive;
+		font-family: 'Chakra Petch', sans-serif;
 		font-size: 1.2rem;
 		margin-top: 0;
 	}
 	.skills_icons h2 {
-		font-family: 'Barriecito', cursive;
+		font-family: 'Chakra Petch', sans-serif;
 		font-size: 1rem;
 		text-decoration: underline;
 	}

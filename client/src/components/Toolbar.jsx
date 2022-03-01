@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Toolbar.css'
 import PanelToggleButton from './PanelToggleButton'
-import headphones from '../imgs/headphones.png'
+import girlheadphones from '../imgs/girlheadphones.png'
 import { Link } from 'react-router-dom'
 
 const toolbar = props => {
@@ -11,7 +11,7 @@ const toolbar = props => {
                 <div className="toolbar_toggle-button">
                     <PanelToggleButton click={props.handlePanelToggleClick} />
                 </div>
-                <div className="toolbar_logo"><Link to='/'><img src={headphones} width="150px" height="90px" className='logo' alt='logo' /> </Link>
+                <div className="toolbar_logo"><Link to='/'><img src={girlheadphones} width="90px" height="90px" className='logo' alt='logo' /> </Link>
                 </div>
                 <div className="spacer" />
                 <div className="toolbar_nav-items">

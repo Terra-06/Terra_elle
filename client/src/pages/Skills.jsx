@@ -9,7 +9,7 @@ export default function Skills() {
         <div className='skills'>
             <video loop muted autoPlay src={bkgd}
                 style={{
-                    position: 'absolute',
+                    position: 'fixed',
                     width: '100%',
                     left: '50%',
                     top: '50%',
