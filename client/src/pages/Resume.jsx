@@ -8,7 +8,7 @@ export default function Resume() {
 
 
     return (
-        <div className='resume'>
+        <div className='vid'>
             <video loop muted autoPlay src={bkgd}
                 style={{
                     position: 'fixed',
@@ -21,10 +21,13 @@ export default function Resume() {
                     zIndex: '-1',
                 }}
             />
-            <div className='resume_contain'>
-                <Document file={TMSResume}>
-                    <Page pageNumber={1} />
-                </Document>
+            <div className='resume_main-contain'>
+                <div className='resume_sub-contain'>
+                    <Document className='resume' file={TMSResume}>
+                        <Page pageNumber={1} />
+                    </Document>
+
+                </div>
 
             </div>
         </div >
