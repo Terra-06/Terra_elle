@@ -2,12 +2,12 @@ import React from 'react'
 import bkgd from '../videos/bkgd.mov'
 import '../styles/Projects.css'
 
-export default function Home() {
+export default function Projects() {
     return (
-        <div className='home'>
+        <div className='projects'>
             <video loop muted autoPlay src={bkgd}
                 style={{
-                    position: 'absolute',
+                    position: 'fixed',
                     width: '100%',
                     left: '50%',
                     top: '50%',
