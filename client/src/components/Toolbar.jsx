@@ -14,6 +14,22 @@ const toolbar = props => {
                 <div className="toolbar_logo"><Link to='/'><img src={girlheadphones} width="90px" height="90px" className='logo' alt='logo' /> </Link>
                 </div>
                 <div className="spacer" />
+                <span className='github' >
+
+                    <a target="_blank" href='https://github.com/Terra-06'>
+                        <i className="devicon-github-plain icon" ></i>
+
+                    </a>
+                </span>
+                <div className="spacer2" />
+
+                <span className="linkedin">
+                    <a target='_blank' href='https://www.linkedin.com/in/terra-elle/'>
+                        <i className="devicon-linkedin-plain icon"></i>
+                    </a>
+                </span>
+
+                <div className="spacer2" />
                 <div className="toolbar_nav-items">
                     <ul>
                         <li><a href="/">Home *</a></li>
