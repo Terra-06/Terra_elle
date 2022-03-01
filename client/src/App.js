@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
-import './styles/App.css';
 import Toolbar from './components/Toolbar'
 import SidePanel from './components/SidePanel'
 import Backdrop from './components/Backdrop'
