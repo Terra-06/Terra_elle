@@ -1,5 +1,6 @@
 import React from 'react'
 import bkgd from '../videos/bkgd.mov'
+import Tportvid from '../videos/Tportvid.mov'
 import '../styles/Home.css'
 
 export default function Home() {
@@ -17,10 +18,14 @@ export default function Home() {
                     zIndex: '-1',
                 }}
             ></video>
-            <div className='home_text-container'>
-                <div className='home_Terra-elle'>
-                    {/* <h1>Terra'elle</h1> */}
+            <div className='home_vid-contain'>
+                <div className='home_vid-subContain'>
+                    <div className='home_vid'>
+                        <video loop muted autoPlay src={Tportvid}></video>
+                    </div>
+
                 </div>
+
                 {/* <div className='home_resume-button'>
                     <a href="/">
                         <button>Resume</button>
