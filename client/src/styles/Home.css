@@ -1,56 +1,41 @@
-.home {
-	text-align: center;
-	color: rgba(238, 128, 10, 0.845);
-}
-
-.home_youtube {
-	height: 100vh;
-	width: 100vw;
-}
-
-.home_text-container {
-	margin-top: 25%;
-	font-size: 3rem;
-	font-family: 'Chakra Petch', sans-serif;
-	letter-spacing: 8px;
-}
-
-/* .home_resume-button button {
-	font-size: 1.5rem;
-	background-color: rgb(128, 55, 0);
-	color: white;
-	padding: 12px;
-	border-radius: 10px;
-	box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.5);
+.home_vid-contain {
+	padding: 10% 20%;
 	cursor: grab;
 }
 
-.home_resume-button button:hover {
-	font-size: 1.5rem;
-	background-color: rgba(250, 179, 0, 0.838);
+.home_vid-subContain {
+	display: grid;
+	grid-template-rows: auto;
+	padding: 5% 10%;
 	color: white;
-	padding: 12px;
-	border-radius: 10px;
-	box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.5);
+	background: #6a0705af;
+	border: 5px rgb(62, 7, 7) solid;
+	border-radius: 20px;
+	box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-.home_resume-button button:active {
-	font-size: 1.5rem;
-	background-color: rgba(255, 166, 0, 0.755);
-	color: white;
-	padding: 9px;
-	border-radius: 10px;
-	box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
-}
-
-.home_resume-button:focus {
-	outline: none;
-} */
-
-@media (max-width: 768px) {
-	.home_text-container {
+@media (max-width: 769px) {
+	.home_vid-contain {
 		margin-top: 35%;
-		font-size: 1.5rem;
-		font-family: 'Chakra Petch', sans-serif;
+		padding: 25% 0%;
+	}
+	.home_vid video {
+		float: left;
+		margin: 15px;
+		margin-left: 0;
+		width: 50%;
+	}
+
+	@media (min-width: 768px) {
+		.home_vid-contain {
+			margin-top: 20%;
+			padding: 15% 0%;
+		}
+		.home_vid video {
+			float: left;
+			margin: 15px;
+			margin-left: 0;
+			width: 50%;
+		}
 	}
 }

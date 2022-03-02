@@ -23,12 +23,12 @@ export default function Resume() {
             />
             <div className='resume_main-contain'>
                 <div className='resume_sub-contain'>
-                    <Document className='resume' file={TMSResume}>
-                        <Page pageNumber={1} />
-                    </Document>
-
+                    <div className='resume_page-contain'>
+                        <Document className='resume' file={TMSResume}>
+                            <Page pageNumber={1} />
+                        </Document>
+                    </div>
                 </div>
-
             </div>
         </div >
 

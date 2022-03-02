@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './styles/App.css'
 import { Routes, Route } from 'react-router-dom'
 import Toolbar from './components/Toolbar'
 import SidePanel from './components/SidePanel'
@@ -32,13 +33,13 @@ export default function App() {
       <Toolbar handlePanelToggleClick={handlePanelToggleClick} />
       <SidePanel show={sidePanelOpen} />
       {backdrop}
-      <main style={{ marginTop: '65px' }}>
+      <main style={{ marginTop: '64px' }}>
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route path='/About' element={<About />} />
+          <Route path='/Resume' element={<Resume />} />
           <Route path='/Projects' element={<Projects />} />
           <Route path='/Skills' element={<Skills />} />
-          <Route path='/Resume' element={<Resume />} />
         </Routes>
       </main>
     </div >
