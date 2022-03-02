@@ -1,35 +1,35 @@
-.resume {
-	min-height: 100%;
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
 .resume_main-contain {
-	padding: 5% 25%;
+	padding: 10% 25%;
 }
 
 .resume_sub-contain {
-	display: flex;
-	padding: 10% 16%;
+	display: grid;
+	grid-template-rows: auto;
+	padding: 5% 10%;
+	color: white;
 	background: #6a0705af;
 	border: 5px rgb(62, 7, 7) solid;
 	border-radius: 20px;
+	box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.resume {
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	margin-right: 25px;
+	margin-left: 0;
+	margin-bottom: 30px;
+	width: 30%;
 }
 
 @media (max-width: 768px) {
 	.resume_main-contain {
 		padding: 25% 0%;
-		display: flex;
-		justify-content: center;
-		margin-top: 130px;
 	}
-
 	.resume {
 		float: left;
-		margin: 10px;
-		/* margin-left: 0; */
-		width: 25%;
+		margin: 15px;
+		margin-left: 0;
+		width: 50%;
 	}
 }

@@ -5,6 +5,7 @@
 	width: 100%;
 	background: #6a0705b1;
 	height: 100px;
+	/* z-index: 50; */
 }
 
 .toolbar_nav {
@@ -14,27 +15,19 @@
 	padding: 0 1rem;
 }
 
-.toolbar_logo {
+.logo {
 	margin-left: 1rem;
 	margin-top: 10px;
-}
-
-.toolbar_logo a {
-	color: rgba(211, 161, 54, 0.954);
-	text-decoration: none;
-	font-size: 1.5rem;
 }
 
 .spacer {
 	flex: 1;
 }
-.spacer2 {
-	flex: 0.5;
-}
 
 .linkedin,
 .github {
 	font-size: 2.5rem;
+	padding: 30px;
 }
 
 .toolbar_nav-items ul {
@@ -64,13 +57,16 @@
 	.toolbar_nav-items {
 		display: none;
 	}
+	.toolbar_toggle-button {
+		margin-right: 15px;
+	}
 }
 
 @media (min-width: 769px) {
 	.toolbar_toggle-button {
 		display: none;
 	}
-	.toolbar_logo {
+	.logo {
 		margin-left: 0;
 	}
 }
