@@ -4,16 +4,16 @@ import PanelToggleButton from './PanelToggleButton'
 import girlheadphones from '../imgs/girlheadphones.png'
 import { Link } from 'react-router-dom'
 
-const toolbar = props => {
+const Toolbar = props => {
     return (
         <header className="toolbar">
             <nav className="toolbar_nav">
                 <div className="toolbar_toggle-button">
                     <PanelToggleButton click={props.handlePanelToggleClick} />
                 </div>
-                <div className="toolbar_logo"><Link to='/'><img src={girlheadphones} width="90px" height="90px" className='logo' alt='logo' /> </Link>
+                <div className="logo"><Link to='/'><img src={girlheadphones} alt='girl with headphones logo' width="90px" height="90px" /> </Link>
                 </div>
-                <div className="spacer" />
+                <div className="spacer2" />
                 <span className='github' >
 
                     <a target="_blank" href='https://github.com/Terra-06'>
@@ -21,22 +21,21 @@ const toolbar = props => {
 
                     </a>
                 </span>
-                <div className="spacer2" />
-
                 <span className="linkedin">
                     <a target='_blank' href='https://www.linkedin.com/in/terra-elle/'>
                         <i className="devicon-linkedin-plain icon"></i>
                     </a>
                 </span>
 
-                <div className="spacer2" />
+                <div className="spacer" />
                 <div className="toolbar_nav-items">
                     <ul>
                         <li><a href="/">Home *</a></li>
                         <li><a href="/about">About *</a></li>
+                        <li><a href="/resume">Resume *</a></li>
                         <li><a href="/projects">Projects *</a></li>
-                        <li><a href="/skills">Skills *</a></li>
-                        <li><a href="/resume">Resume</a></li>
+                        <li><a href="/skills">Skills</a></li>
+
                     </ul>
                 </div>
             </nav>
@@ -44,4 +43,4 @@ const toolbar = props => {
     )
 }
 
-export default toolbar
+export default Toolbar
