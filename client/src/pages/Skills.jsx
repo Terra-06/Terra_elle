@@ -19,7 +19,7 @@ export default function Skills() {
                     zIndex: '-1',
                 }}
             ></video>
-            <div className='skills_main-contain'>
+            <div className='skills_main-contain skills'>
                 <div className='skills_sub-contain'>
                     <h1>Skills</h1>
                     <div className='skills_skills-contain'>
