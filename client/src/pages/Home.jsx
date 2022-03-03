@@ -2,6 +2,7 @@ import React from 'react'
 import bkgd from '../videos/bkgd.mov'
 import Tportvid from '../videos/Tportvid.mov'
 import '../styles/Home.css'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
     return (
@@ -21,7 +22,7 @@ export default function Home() {
             <div className='home_vid-contain'>
                 <div className='home_vid-subContain'>
                     <div className='home_vid'>
-                        <video loop muted autoPlay src={Tportvid}></video>
+                        <Link to='/projects'><video loop muted autoPlay src={Tportvid}></video></Link>
                     </div>
 
                 </div>
