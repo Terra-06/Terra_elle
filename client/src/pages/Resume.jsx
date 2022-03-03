@@ -6,7 +6,6 @@ import TMSResume from '../assets/TMSResume.pdf'
 
 export default function Resume() {
 
-
     return (
         <div className='bkgd_vid'>
             <video loop muted autoPlay src={bkgd}
@@ -31,7 +30,5 @@ export default function Resume() {
                 </div>
             </div>
         </div >
-
-
     )
 }
