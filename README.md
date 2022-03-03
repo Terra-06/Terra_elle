@@ -1,6 +1,6 @@
-# **_Terra'elle Portfolio_**
+# **_The World of Terra'elle_**
 
-<img src=images/portfolio01.png alt="portfolio_home" width="450" />
+<img src=images/port_home.png alt="portfolio-homepage" width="450" />
 
 ##### Welcome to my portfolio, where inspiration becomes dreams, and dreams become reality.
 
@@ -22,7 +22,7 @@
 
 #### This portfolio showcases some of my most prestigious projects, both individual and group/team based. <br>
 
-<img src=images/portfolio02.png alt="dj with a blue background" width="450" />
+<img src=images/port_about.png alt="portfolio-about-page" width="450" />
 
 ---
 
@@ -30,37 +30,33 @@
 
 ### **_Technology Used_**
 
-VS Code || React || NodeJS || Figma || Whimsical || InkScape || FinalCut Pro
+VS Code || React || NodeJS || Figma || FinalCut Pro
 
 ---
 
 ---
 
-### **_Getting Started_**
+---
 
--  Fork and Clone this repo to review the code
+<img src=images/port_resume.png alt="portfolio-resume-page" width="450" />
 
 ---
 
-<img src=images/trebleclef.png alt="treble-clef-image" width="75" />
-
----
-
-## **_Benefits of the Terra'elle Portfolio:_**
+## **_Terra'elle Portfolio:_**
 
 -  Instant access to resume
 -  High-quality content
--  user-friendly navigation
+-  User-friendly navigation
 
 ---
 
 ---
 
-<img src=images/portfolio03.png alt="portfolio_image" width="450" />
+<img src=images/port_projects.png alt="portfolio-projects-page" width="450" />
 
 #### This portfolio showcases Terra's most prestigious projects.<br>
 
-<img src=images/portfolio04.png alt="portfolio_image" width="450" />
+<img src=images/port_skills.png alt="portfolio-skills-page" width="450" />
 
 ---
 
@@ -68,7 +64,7 @@ VS Code || React || NodeJS || Figma || Whimsical || InkScape || FinalCut Pro
 
 ##### - [ ] Add more content to the portfolio
 
-##### - [ ] Add/update images of the portfolio pages
+##### - [ x ] ~~Add/update images of the portfolio pages~~
 
 ##### - [ x ] ~~Update ReadMe~~
 

@@ -1,35 +1,29 @@
+.superMain-contain {
+	display: flex;
+	margin: 0 auto;
+	width: max-content;
+	gap: 0 75px;
+}
+
 .resume_main-contain {
-	padding: 0% 25%;
+	display: flex;
 }
 
 .resume_sub-contain {
-	display: grid;
-	grid-template-rows: auto;
-	padding: 5% 10%;
+	padding: 20px 20px;
 	color: white;
 	background: #6a0705af;
 	border: 5px rgb(62, 7, 7) solid;
 	border-radius: 20px;
 	box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
 }
-.resume {
-	position: relative;
-	float: left;
-	margin: 0 auto;
-	margin-right: 25px;
-	margin-left: 0;
-	margin-bottom: 20px;
-	width: 47%;
-}
 
-@media (max-width: 768px) {
-	.resume_main-contain {
-		padding: 0% 15%;
-	}
-	.resume_sub-contain {
-		padding: 10% 10%;
-	}
-	.resume {
-		width: 200%;
-	}
+.cert_sub-contain {
+	padding: 20px 20px;
+	color: white;
+	background: #6a0705af;
+	border: 5px rgb(62, 7, 7) solid;
+	border-radius: 20px;
+	box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+	box-sizing: content-box;
 }
