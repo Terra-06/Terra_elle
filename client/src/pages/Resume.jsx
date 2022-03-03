@@ -21,7 +21,7 @@ export default function Resume() {
                     zIndex: '-1',
                 }}
             />
-            <div className='resume_main-contain'>
+            <div className='resume_main-contain resume'>
                 <div className='resume_sub-contain'>
                     <div className='resume_page-contain'>
                         <Document className='resume' file={TMSResume}>
