@@ -1,11 +1,11 @@
 .resume_main-contain {
-	padding: 10% 25%;
+	padding: 0% 25%;
 }
 
 .resume_sub-contain {
 	display: grid;
 	grid-template-rows: auto;
-	padding: 5% 10%;
+	padding: 5% 15%;
 	color: white;
 	background: #6a0705af;
 	border: 5px rgb(62, 7, 7) solid;

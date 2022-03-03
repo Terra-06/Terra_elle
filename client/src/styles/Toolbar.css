@@ -1,9 +1,9 @@
 .toolbar {
-	position: fixed;
+	position: sticky;
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: #6a0705b1;
+	/* background: #6a07054c; */
 	height: 100px;
 	z-index: 50;
 }
@@ -22,6 +22,10 @@
 
 .spacer {
 	flex: 1;
+}
+
+.spacer2 {
+	flex: 0.05;
 }
 
 .linkedin,
@@ -44,13 +48,15 @@
 }
 
 .toolbar_nav-items a {
-	color: rgba(211, 161, 54, 0.954);
+	font-weight: bolder;
+	color: #4f0705;
+	/* color: rgba(211, 161, 54, 0.954); */
 	text-decoration: none;
 }
 
 .toolbar_nav-items a:hover,
 .toolbar_nav-items a:active {
-	color: #4f0705;
+	color: rgba(211, 161, 54, 0.954);
 }
 
 @media (max-width: 768px) {
