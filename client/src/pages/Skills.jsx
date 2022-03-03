@@ -6,7 +6,7 @@ import bkgd from '../videos/bkgd.mov'
 export default function Skills() {
 
     return (
-        <div className='skills'>
+        <div className='bkgd_vid'>
             <video loop muted autoPlay src={bkgd}
                 style={{
                     position: 'fixed',

@@ -5,7 +5,7 @@ import '../styles/Home.css'
 
 export default function Home() {
     return (
-        <div className='home'>
+        <div className='bkgd_vid'>
             <video loop muted autoPlay src={bkgd}
                 style={{
                     position: 'fixed',

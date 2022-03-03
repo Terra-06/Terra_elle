@@ -8,7 +8,7 @@ export default function Resume() {
 
 
     return (
-        <div className='vid'>
+        <div className='bkgd_vid'>
             <video loop muted autoPlay src={bkgd}
                 style={{
                     position: 'fixed',

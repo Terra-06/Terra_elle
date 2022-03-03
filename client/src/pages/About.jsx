@@ -6,7 +6,7 @@ import Tprofile from '../imgs/Tprofile.jpg'
 export default function About() {
 
     return (
-        <div className='about'>
+        <div className='bkgd_vid'>
             <video loop muted autoPlay src={bkgd}
                 style={{
                     position: 'fixed',
