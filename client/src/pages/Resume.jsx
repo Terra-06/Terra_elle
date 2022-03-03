@@ -1,8 +1,8 @@
 import React from 'react'
 import bkgd from '../videos/bkgd.mov'
 import '../styles/Resume.css'
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
-import TMSResume from '../assets/TMSResume.pdf'
+import TMSResume from '../imgs/TMSResume.png'
+import TMSCert from '../imgs/TMSCert.png'
 
 export default function Resume() {
 
@@ -20,15 +20,23 @@ export default function Resume() {
                     zIndex: '-1',
                 }}
             />
-            <div className='resume_main-contain resume'>
-                <div className='resume_sub-contain'>
-                    <div className='resume_page-contain'>
-                        <Document className='resume' file={TMSResume}>
-                            <Page pageNumber={1} />
-                        </Document>
+            <div className='superMain-contain'>
+                <div className='resume_main-contain'>
+                    <div className='resume_sub-contain'>
+                        <div className='resume_page-contain resume'>
+                            <img src={TMSResume} width='550' height='700'></img>
+                        </div>
                     </div>
                 </div>
+                <div className='cert_main-contain'>
+                    <div className='cert_sub-contain'>
+                        <div className='cert_page-contain'>
+                            <img src={TMSCert} height='450'></img>
+                        </div>
+                    </div>
+                </div >
             </div>
-        </div >
+
+        </div>
     )
 }
