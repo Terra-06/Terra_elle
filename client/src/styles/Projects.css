@@ -1,0 +1,58 @@
+.project_contain {
+	width: 75vw;
+	height: 75vh;
+	margin: 0 auto;
+	padding-top: 120px;
+}
+
+.main_contain {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 74vw;
+	height: 70vh;
+}
+
+.sub_contain {
+	width: 50vw;
+	height: 70vh;
+	background: #6a0705af;
+	border: 5px rgb(62, 7, 7) solid;
+	border-radius: 20px;
+}
+
+.p_img {
+	width: 74vw;
+	height: 70vh;
+	border-radius: 25px;
+}
+
+.h1_1,
+.h1_2,
+.h1_3,
+.h1_4 {
+	font-family: 'Chakra Petch', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: rgb(85, 9, 9);
+	padding: 50px;
+}
+
+.pro1,
+.pro2,
+.pro3,
+.pro4 {
+	background: #6a0705af;
+	border: 5px rgb(62, 7, 7) solid;
+	border-radius: 20px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+	color: white;
+	font-size: 30px;
+	letter-spacing: 3px;
+	text-align: center;
+}
