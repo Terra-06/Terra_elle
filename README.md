@@ -1,18 +1,18 @@
-# **_Pure-DJ_**
+# **_Terra'elle Portfolio_**
 
-<img src=images/pure_logo.png alt="Pure_DJ logo" width="450" />
+<img src=images/portfolio01.png alt="portfolio_home" width="450" />
 
-##### A “DJ Record Pool” app with a huge library of promotional music that DJs can access anywhere.
-
----
+##### Welcome to my portfolio, where inspiration becomes dreams, and dreams become reality.
 
 ---
 
-### Created By: [Terra Smith](https://www.linkedin.com/in/terratori/)
+---
 
-##### 12/15/2021
+### Created By: [Terra Smith](https://www.linkedin.com/in/terra-elle/)
 
-### [Pure_DJ](https://www.com/)
+##### 02.15.2022
+
+### [GitHub](https://www.github.com/Terra-06)
 
 ---
 
@@ -20,15 +20,19 @@
 
 ## **_Description_**
 
-#### A _DJ Record Pool_, is a large curated library of promotional music that DJs can access whenever they need some extra tunes for gigs and shows. Rather than purchasing tracks individually, DJs pay for a monthly or yearly subscription that makes it easy to select, download and use the tracks they selected. Although DJ pools are intended mainly for club DJs, they are ideal for regular gigs also. <br>
+#### This portfolio showcases some of my most prestigious projects, both individual and group/team based. <br>
 
-<img src=images/pure_land.png alt="dj with a blue background" width="450" />
+<img src=images/portfolio02.png alt="dj with a blue background" width="450" />
+
+---
 
 ---
 
 ### **_Technology Used_**
 
-VS Code || Mongoose || MongoDB || Express || REACT || NodeJS || Insomnia || Figma || Whimsical || InkScape || SketchBook
+VS Code || React || NodeJS || Figma || Whimsical || InkScape || FinalCut Pro
+
+---
 
 ---
 
@@ -42,32 +46,29 @@ VS Code || Mongoose || MongoDB || Express || REACT || NodeJS || Insomnia || Figm
 
 ---
 
-## **_Benefits of a DJ record pool:_**
+## **_Benefits of the Terra'elle Portfolio:_**
 
--  Instant access to new releases
--  High-quality music content
--  DJ-friendly content
--  Saving time & costs
-
----
+-  Instant access to resume
+-  High-quality content
+-  user-friendly navigation
 
 ---
 
-## **_How Pure-DJ Works_**
+---
 
-<img src=images/pure_home.png alt="turntable-image" width="450" />
+<img src=images/portfolio03.png alt="portfolio_image" width="450" />
 
-#### Verification is often implemented to prevent people from using the record pools as an alternative to music streaming services. DJ record pools sometimes can receive tracks before their official release and moreover they have a different method of financial settlement with the music suppliers than the streaming services do. Because of that in some cases simple user verification may be required during the sign in process..<br>
+#### This portfolio showcases Terra's most prestigious projects.<br>
 
-<img src=images/party-people.jpg alt="musical-turntable-image" width="450" />
+<img src=images/portfolio04.png alt="portfolio_image" width="450" />
 
 ---
 
 ### **_Future Updates_**
 
-##### - [ ] Add 3rd Party API
+##### - [ ] Add more content to the portfolio
 
-##### - [ x ] ~~Add images of the app~~
+##### - [ ] Add/update images of the portfolio pages
 
 ##### - [ x ] ~~Update ReadMe~~
 
@@ -75,4 +76,4 @@ VS Code || Mongoose || MongoDB || Express || REACT || NodeJS || Insomnia || Figm
 
 #### **_Credits_**
 
-Images: [Pure-DJ](https://.com/)
+Images: [Terra'elle Portfolio](https://.com/)
