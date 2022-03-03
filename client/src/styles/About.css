@@ -38,6 +38,9 @@
 	color: #4f0705;
 	font-weight: bold;
 }
+p {
+	font-size: 25px;
+}
 
 .about_image {
 	float: left;

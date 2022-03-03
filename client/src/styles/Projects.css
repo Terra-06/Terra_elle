@@ -32,10 +32,17 @@
 .h1_3,
 .h1_4 {
 	font-family: 'Chakra Petch', sans-serif;
-	font-size: 25px;
 	text-align: center;
 	color: rgb(85, 9, 9);
-	padding: 50px;
+	padding: 5px;
+}
+
+.scroll {
+	font-family: 'Chakra Petch', sans-serif;
+	text-align: center;
+	color: rgb(85, 9, 9);
+	margin-top: 150px;
+	padding-right: 125px;
 }
 
 .pro1,
