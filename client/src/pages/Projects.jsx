@@ -35,9 +35,6 @@ export default function Projects() {
                         <h1>Musical Guess</h1>
                         <p>scroll down</p>
                     </div>
-                    {/* <div className='scroll'>
-                        
-                    </div> */}
                     <div className='main_contain pro1'>
                         <a href='https://musi-guess.surge.sh/musi-guess.html'><img className='p_img' alt='musical-guess-homepage' src={mghome} /></a>
                     </div>

@@ -3,7 +3,6 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	/* background: #6a07054c; */
 	height: 100px;
 	z-index: 50;
 }
@@ -50,7 +49,6 @@
 .toolbar_nav-items a {
 	font-weight: bolder;
 	color: #4f0705;
-	/* color: rgba(211, 161, 54, 0.954); */
 	text-decoration: none;
 }
 

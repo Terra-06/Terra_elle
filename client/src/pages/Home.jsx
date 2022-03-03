@@ -24,14 +24,7 @@ export default function Home() {
                     <div className='home_vid'>
                         <Link to='/projects'><video loop muted autoPlay src={Tportvid}></video></Link>
                     </div>
-
                 </div>
-
-                {/* <div className='home_resume-button'>
-                    <a href="/">
-                        <button>Resume</button>
-                    </a>
-                </div> */}
             </div>
         </div >
     )
