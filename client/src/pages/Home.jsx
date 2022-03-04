@@ -19,13 +19,16 @@ export default function Home() {
                     zIndex: '-1',
                 }}
             ></video>
-            <div className='home_vid-contain'>
-                <div className='home_vid-subContain'>
-                    <div className='home_vid'>
-                        <Link to='/projects'><video loop muted autoPlay src={Tportvid}></video></Link>
+            <div className='superMain-contain'>
+                <div className='home_vid-contain'>
+                    <div className='home_vid-subContain'>
+                        <div className='home_vid'>
+                            <Link to='/projects'><video loop muted autoPlay src={Tportvid}></video></Link>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div >
     )
 }
