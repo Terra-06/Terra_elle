@@ -36,10 +36,10 @@ export default function Projects() {
                         <p>scroll down</p>
                     </div>
                     <div className='main_contain pro1'>
-                        <a href='https://musi-guess.surge.sh/musi-guess.html'><img className='p_img' alt='musical-guess-homepage' src={mghome} /></a>
+                        <a target="_blank" href='https://musi-guess.surge.sh/musi-guess.html'><img className='p_img' alt='musical-guess-homepage' src={mghome} /></a>
                     </div>
                     <div className='main_contain pro1'>
-                        <a href=''><img className='p_img' alt='musical-guess-play-page' src={mgplay} /></a>
+                        <img className='p_img' alt='musical-guess-play-page' src={mgplay} />
                     </div>
                     <div className='sub_contain card1'>
                         <p>A modernized version of the classic game, 'guess-a-word', constructed using the following: </p>
@@ -61,7 +61,7 @@ export default function Projects() {
                         <h1>Pure DJ</h1>
                     </div>
                     <div className='main_contain pro2'>
-                        <a href=''><img className='p_img' alt='pure-dj-homepage' src={phome} /></a>
+                        <a target="_blank" href=''><img className='p_img' alt='pure-dj-homepage' src={phome} /></a>
                     </div>
                     <div className='main_contain pro2'>
                         <img className='p_img' alt='pure-dj-login-page' src={plogin} />
@@ -90,7 +90,7 @@ export default function Projects() {
                         <h1>Tajj Mu'Hall</h1>
                     </div>
                     <div className='main_contain pro3'>
-                        <a href='https://tajjmusichall.herokuapp.com/'><img className='p_img' alt='tajj-music-hall-homepage' src={thome} /></a>
+                        <a target="_blank" href='https://tajjmusichall.herokuapp.com/'><img className='p_img' alt='tajj-music-hall-homepage' src={thome} /></a>
                     </div>
                     <div className='main_contain pro3'>
                         <img className='p_img' alt='tajj-music-hall-start-page' src={tstart} />
@@ -121,7 +121,7 @@ export default function Projects() {
                         <h1>Anthem Music</h1>
                     </div>
                     <div className='main_contain pro4'>
-                        <a href='https://anthem-music-app.herokuapp.com/'><img className='p_img' alt='anthem-music-homepage' src={anhome} /></a>
+                        <a target="_blank" href='https://anthem-music-app.herokuapp.com/'><img className='p_img' alt='anthem-music-homepage' src={anhome} /></a>
                     </div>
                     <div className='main_contain pro4'>
                         <img className='p_img' alt='anthem-music-start-page' src={ansearch} />
