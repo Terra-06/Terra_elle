@@ -31,18 +31,20 @@
 .h1_2,
 .h1_3,
 .h1_4 {
+	padding: 20px 20px;
 	font-family: 'Chakra Petch', sans-serif;
 	text-align: center;
 	color: rgb(85, 9, 9);
-	padding: 5px;
+	border-radius: 20px;
 }
 
 .scroll {
 	font-family: 'Chakra Petch', sans-serif;
+	font-weight: bolder;
 	text-align: center;
 	color: rgb(85, 9, 9);
-	margin-top: 150px;
-	padding-right: 125px;
+	padding: 20px;
+	border-radius: 20px;
 }
 
 .pro1,
@@ -62,4 +64,8 @@
 	font-size: 20px;
 	letter-spacing: 3px;
 	text-align: center;
+}
+
+p {
+	font-size: 30px;
 }

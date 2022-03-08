@@ -72,4 +72,4 @@ VS Code || React || NodeJS || Figma || FinalCut Pro
 
 #### **_Credits_**
 
-Images: [Terra'elle Portfolio](https://.com/)
+Images: [Terra'elle Portfolio](https://world_of_terraelle.surge.sh/)

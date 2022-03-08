@@ -32,14 +32,20 @@ export default function Projects() {
 
                 <HorizontalScroll>
                     <div className='h1_1'>
-                        <h1>Musical Guess</h1>
-                        <p>scroll down</p>
+                        <h1></h1>
+                        <h1>scroll up or down to cycle through projects</h1>
                     </div>
                     <div className='main_contain pro1'>
-                        <a href='https://musi-guess.surge.sh/musi-guess.html'><img className='p_img' alt='musical-guess-homepage' src={mghome} /></a>
+                        <a target="_blank" href='https://musi-guess.surge.sh/musi-guess.html'><img className='p_img' alt='musical-guess-homepage' src={mghome} /></a>
+                    </div>
+                    <div className='h1_2'>
+                        <h1></h1>
                     </div>
                     <div className='main_contain pro1'>
-                        <a href=''><img className='p_img' alt='musical-guess-play-page' src={mgplay} /></a>
+                        <img className='p_img' alt='musical-guess-play-page' src={mgplay} />
+                    </div>
+                    <div className='h1_2'>
+                        <h1></h1>
                     </div>
                     <div className='sub_contain card1'>
                         <p>A modernized version of the classic game, 'guess-a-word', constructed using the following: </p>
@@ -58,13 +64,19 @@ export default function Projects() {
                     </div>
 
                     <div className='h1_2'>
-                        <h1>Pure DJ</h1>
+                        <h1></h1>
                     </div>
                     <div className='main_contain pro2'>
-                        <a href=''><img className='p_img' alt='pure-dj-homepage' src={phome} /></a>
+                        <a target="_blank" href=''><img className='p_img' alt='pure-dj-homepage' src={phome} /></a>
+                    </div>
+                    <div className='h1_2'>
+                        <h1></h1>
                     </div>
                     <div className='main_contain pro2'>
                         <img className='p_img' alt='pure-dj-login-page' src={plogin} />
+                    </div>
+                    <div className='h1_2'>
+                        <h1></h1>
                     </div>
                     <div className='sub_contain card2'>
                         <p>A complete MERN structured DJ record pool app, constructed using the following: </p>
@@ -87,14 +99,20 @@ export default function Projects() {
                     </div>
 
                     <div className='h1_3'>
-                        <h1>Tajj Mu'Hall</h1>
+                        <h1></h1>
                     </div>
                     <div className='main_contain pro3'>
-                        <a href='https://tajjmusichall.herokuapp.com/'><img className='p_img' alt='tajj-music-hall-homepage' src={thome} /></a>
+                        <a target="_blank" href='https://tajjmusichall.herokuapp.com/'><img className='p_img' alt='tajj-music-hall-homepage' src={thome} /></a>
+                    </div>
+                    <div className='h1_2'>
+                        <h1></h1>
                     </div>
                     <div className='main_contain pro3'>
                         <img className='p_img' alt='tajj-music-hall-start-page' src={tstart} />
 
+                    </div>
+                    <div className='h1_2'>
+                        <h1></h1>
                     </div>
                     <div className='sub_contain card3'>
                         <p>An event locator, planner and social app, constructed using the following: </p>
@@ -118,15 +136,20 @@ export default function Projects() {
                     </div>
 
                     <div className='h1_4'>
-                        <h1>Anthem Music</h1>
+                        <h1></h1>
                     </div>
                     <div className='main_contain pro4'>
-                        <a href='https://anthem-music-app.herokuapp.com/'><img className='p_img' alt='anthem-music-homepage' src={anhome} /></a>
+                        <a target="_blank" href='https://anthem-music-app.herokuapp.com/'><img className='p_img' alt='anthem-music-homepage' src={anhome} /></a>
+                    </div>
+                    <div className='h1_2'>
+                        <h1></h1>
                     </div>
                     <div className='main_contain pro4'>
                         <img className='p_img' alt='anthem-music-start-page' src={ansearch} />
                     </div>
-
+                    <div className='h1_2'>
+                        <h1></h1>
+                    </div>
                     <div className='sub_contain card4'>
                         <p>A music app, utilizing 3rd party API and user auth, constructed using the following: </p>
                         <div className='icons'>
@@ -143,7 +166,7 @@ export default function Projects() {
                         </div>
                     </div>
                     <div className='scroll'>
-                        <p>scroll up</p>
+                        <h1>scroll up or down to cycle through projects</h1>
                     </div>
                 </HorizontalScroll>
             </div>

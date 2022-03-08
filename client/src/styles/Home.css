@@ -1,41 +1,41 @@
+.superMain-contain {
+	display: flex;
+	margin: 0 auto;
+	width: max-content;
+	gap: 0 75px;
+}
+
 .home_vid-contain {
-	padding: 0% 16.5%;
 	cursor: grab;
 }
 
 .home_vid-subContain {
-	display: grid;
-	grid-template-rows: auto;
-	padding: 5% 10%;
+	padding: 30px 30px;
 	color: white;
 	background: #6a0705af;
 	border: 5px rgb(62, 7, 7) solid;
 	border-radius: 20px;
-	box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
 	.home_vid-contain {
-		margin-top: 35%;
-		padding: 25% 0%;
-	}
-	.home_vid video {
-		float: left;
-		margin: 15px;
-		margin-left: 0;
-		width: 50%;
+		cursor: grab;
 	}
 
-	@media (min-width: 768px) {
-		.home_vid-contain {
-			margin-top: 20%;
-			padding: 15% 0%;
-		}
-		.home_vid video {
-			float: left;
-			margin: 15px;
-			margin-left: 0;
-			width: 50%;
-		}
+	.home_vid-subContain {
+		margin: 0 auto;
+		padding: 10px 10px;
+	}
+}
+
+@media (min-width: 769px) {
+	.home_vid-contain {
+		cursor: grab;
+	}
+
+	.home_vid-subContain {
+		margin: 0 auto;
+		padding: 10px 10px;
 	}
 }
