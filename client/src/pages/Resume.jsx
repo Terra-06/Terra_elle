@@ -2,7 +2,7 @@ import React from 'react'
 import bkgd from '../videos/bkgd.mov'
 import '../styles/Resume.css'
 import TMSResume from '../imgs/TMSResume.png'
-import TMSCert from '../imgs/TMSCert.png'
+// import TMSCert from '../imgs/TMSCert.png'
 
 export default function Resume() {
 
@@ -28,13 +28,13 @@ export default function Resume() {
                         </div>
                     </div>
                 </div>
-                <div className='cert_main-contain'>
+                {/* <div className='cert_main-contain'>
                     <div className='cert_sub-contain'>
                         <div className='cert_page-contain'>
                             <img src={TMSCert} height='450'></img>
                         </div>
                     </div>
-                </div >
+                </div > */}
             </div>
 
         </div>
