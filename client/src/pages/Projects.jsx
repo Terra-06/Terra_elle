@@ -33,10 +33,11 @@ export default function Projects() {
                 <HorizontalScroll>
                     <div className='h1_1'>
                         <h1></h1>
-                        <h1>scroll up or down to cycle through projects</h1>
+                        <h1>Scroll up or down to cycle through projects</h1>
+                        <h2>Click on image to view deployed project</h2>
                     </div>
                     <div className='main_contain pro1'>
-                        <a target="_blank" href='https://musi-guess.surge.sh/musi-guess.html'><img className='p_img' alt='musical-guess-homepage' src={mghome} /></a>
+                        <a target="_blank" href='https://musi-guess.surge.sh/'><img className='p_img' alt='musical-guess-homepage' src={mghome} /></a>
                     </div>
                     <div className='h1_2'>
                         <h1></h1>
